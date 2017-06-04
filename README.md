@@ -1,6 +1,10 @@
-### import
+### install
+    npm install vue-to-rate
 
-    import vrate from './components/index'
+### import
+main.js
+
+    import vrate from 'vue-to-rate'
     Vue.use(vrate)
 
 
@@ -12,7 +16,7 @@
     </template>
 
     <style>
-    @import url('./vratings/css/iconfont.css'); // import compoent css or your css
+    @import url('../../node_modules/vue-to-rate/vratings/css/iconfont.css'); // import compoent css or your css
     </style>
 ### props
     min: {
@@ -41,4 +45,6 @@
         return ['icon-smile', 'icon-smilefill', 'icon-sad', 'icon-sadfill']
         }
     }
-    
+
+### example
+![example](http://i4.buimg.com/1949/645aabea902bac37.gif)
