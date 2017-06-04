@@ -6,12 +6,34 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Youzhigang/vue-to-rate"
+  },
   "keywords": [
     "vue.js",
     "rate",
     "component"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "ethany",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.2.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "eventsource-polyfill": "^0.9.6",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^2.0.0",
+    "vue-template-compiler": "^2.2.4"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
