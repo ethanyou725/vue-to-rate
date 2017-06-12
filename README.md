@@ -47,6 +47,7 @@ main.js
     }
 
 ### example
-> cd example && npm install
-> npm run dev
+    
+    cd example && npm install
+    npm run dev
 ![example](http://i4.buimg.com/1949/645aabea902bac37.gif)
